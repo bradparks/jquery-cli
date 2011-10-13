@@ -1,0 +1,19 @@
+{
+  "author": "Joshua Holbrook <josh@nodejitsu.com>",
+  "name": "jquery-cli",
+  "description": "Use jquery to manipulate piped-in html",
+  "version": "0.0.0",
+  "repository": {
+    "url": "https://github.com/jesusabdullah/jquery-cli.git"
+  },
+  "engines": {
+    "node": "~v0.4.12"
+  },
+  "bin": {
+    "jquery": "./bin/jquery.js"
+  },
+  "dependencies": {
+    "jsdom": "v0.2.x"
+  },
+  "devDependencies": {}
+}
